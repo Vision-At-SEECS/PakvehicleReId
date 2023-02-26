@@ -75,7 +75,7 @@ python train_xent_tri.py \
 ### test
 1. To test the model, please verify the paths of test directory and also specify the pretrained model in checkpoint in the config.py file. 
 2. Use --evaluate to switch to the evaluation mode. In doing so, no model training is performed.
-3. Multiple test size are gievn in the dataset folder which can be evaluated by changing test size command
+3. Multiple test size are gievn in the dataset folder which can be evaluated by changing test size command(-test--size)
 given in the script below.
 ```
 python test_imgreid.py \
