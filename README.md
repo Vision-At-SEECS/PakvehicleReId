@@ -34,7 +34,7 @@ The challenge of re-identifying vehicles in urban city surveillance systems and 
 The following files must be downloaded for successful setup.
 **Dataset**
 Please download the PakVehicle-ReID dataset from our google drive [link]().
-After completion, put the training and test folders in `dataset` directory.
+After completion, put the training and test folders in `dataset` directory as follow.
 ```
 ├── Vehiclereid/
 │   ├── datasets/                  
@@ -68,7 +68,8 @@ python train_xent_tri.py \
 ```
 ### test
 Use --evaluate to switch to the evaluation mode. In doing so, no model training is performed.
-
+Multiple test size are gievn in the dataset folder which can be evaluated by changing test size command
+given in the script below.
 ```
 python test_imgreid.py \
 -s Pakvehiclereid \ # this does not matter any more
