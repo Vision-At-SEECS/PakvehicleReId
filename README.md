@@ -45,6 +45,12 @@ After completion, put the training and test folders in `dataset` directory as fo
             ├── train_list 
             ├── test_list
 ```
+After successful completion of setup, please verify the directory paths and other parameters in config.py. 
+Then execute the following cmd given in the dataset folder to load the dataset.
+```
+pakvehicleid.py
+```
+
 
 ## Usage
 ### train
