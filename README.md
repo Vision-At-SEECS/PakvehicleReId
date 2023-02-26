@@ -57,8 +57,7 @@ pakvehicleid.py
 
 ## Usage
 ### train
-1. Input arguments for the training scripts are unified in [args.py](./args.py).
-2. To train an image-reid model, you can do
+To train an image-reid model, please execute the command given below.  
 ```
 python train_xent_tri.py \
 -s Pakvehiclereid \    #source dataset for training
