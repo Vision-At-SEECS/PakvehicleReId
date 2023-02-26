@@ -1,7 +1,9 @@
-## Pak-Vehicle-ReID: A Multi-perspective Benchmark for Vehicle Re-Identification
-This repo is an implementation of the paper "**PakVehicle-ReID: A Multi-perspective Benchmark for Vehicle Re-Identification in Unconstrained Urban Road Environment**". 
+## Pak-Vehicle-ReID: A Multi-perspective Benchmark for Vehicle Re-Identification in Unconstrained Urban Road Environment
+This repository is for the"**PakVehicle-ReID**" dataset which can be requested for download from the authors of the paper by filling in the form given at the following link: 
 
-<!-- - which is under review in **Pattern Recognition Letters**. The complete implementation along with the dataset has been released for the community use. -->
+[Dataset Acquisition Form](https://docs.google.com/forms/d/e/1FAIpQLSdSwCp2GEXFudaGpDzRpwcBQyAioBFTXAbzKZRfq-XaWNppPg/viewform)
+
+We will respond to your request at the earliest with the link to the dataset.
 
 ## Contents
 1. [Introduction](#introduction)
@@ -30,12 +32,9 @@ The challenge of re-identifying vehicles in urban city surveillance systems and 
 
 3. For convience, please execute `requirements.txt` in cmd prompt.
 
-### Downloads
-The following files must be downloaded for successful setup.
-**Dataset**
-Please download the PakVehicle-ReID dataset from our google drive [link]().
-After completion, put the training and test folders in `dataset` directory as follow.
-After successful completion of setup, please verify the directory paths and other parameters in config.py.
+## Dataset
+
+Please download the PakVehicle-ReID dataset and put the training and test folders in `datasets` directory as follows.
 ```
 ├── Vehiclereid/
 │   ├── datasets/                  
@@ -45,8 +44,12 @@ After successful completion of setup, please verify the directory paths and othe
         ├── Train_test_splits/
             ├── train_list 
             ├── test_list
+
 ``` 
-Then execute the following cmd given in the dataset folder to load the dataset.
+
+After successful completion of setup, please verify the directory paths and other parameters in config.py.
+
+You may execute the following command given in the dataset folder to view a summary of the dataset.
 ```
 pakvehicleid.py
 ```
