@@ -22,15 +22,14 @@ The challenge of re-identifying vehicles in urban city surveillance systems and 
 
 
 ## Setup
-1. cd to your preferred directory and run ' https://github.com/HassanAliAsghar/PakvehicleReId '.
-2. The following libraries/packages are required for successful execution of this project.
+The following libraries/packages are required for successful execution of this project.
 
-  - PyTorch
-  - Shapely
-  - Opencv
-  - TensorboardX
+  1. PyTorch
+  2. Shapely
+  3. Opencv
+  4. TensorboardX
 
-3. For convience, please execute `requirements.txt` in cmd prompt.
+3. For convience, you may execute `requirements.txt` in cmd prompt.
 
 ## Dataset
 
@@ -110,7 +109,7 @@ Zuhair Zafar <zuhair.zafar@seecs.edu.pk>
 
 Muhammad Moazam Fraz <mfraz@turing.ac.uk>
 
-# Citation
+<!-- # Citation
 - If you follow the code or ideas from our paper, please cite our paper:
 ```
-```
+``` -->
