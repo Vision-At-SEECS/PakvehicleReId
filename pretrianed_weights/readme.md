@@ -1,2 +1,2 @@
 # Pretrained Weights 
-The pretrained will be added to the repository in due time.
+you can download prertrained weights form here [!weights](https://drive.google.com/file/d/1th09eQdodrw2em5G7t9Zup0s-YK3Xkl1/view?usp=share_link)
