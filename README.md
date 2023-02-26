@@ -35,6 +35,16 @@ The following files must be downloaded for successful setup.
 1. **Dataset**
     Please download the PakVehicle-ReID dataset from our google drive [link]().
     After completion, put the training and test folders in `dataset` directory.
+    ```
+├── Vehiclereid/
+│   ├── datasets/                  
+│   ├── PakVehicleID/                   
+│       ├── Images 
+│       ├── image_query
+        ├── Train_test_splits/
+            ├── train_list 
+            ├── test_list
+```
 
 
 ## Usage
