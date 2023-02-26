@@ -74,9 +74,9 @@ python train_xent_tri.py \
 --gpu-devices 0 \ # gpu device index
 ```
 ### test
-1. To test the model, please verify the paths of test directory and also specify the pretrained model in checkpoint in the config.py file. 
-2. Use --evaluate to switch to the evaluation mode. In doing so, no model training is performed.
-3. Multiple test size are given in the dataset folder which can be evaluated by changing test size command (-test--size) given in the script below.
+1. To test the model, please verify the paths of test directory and also specify the pretrained model in the command given below. 
+2. The --evaluate argument switches the execution to evaluation mode.
+3. Multiple test sizes are given in the dataset folder which can be evaluated by changing test size command (-test--size) given in the script below.
 ```
 python test_imgreid.py \
 -s Pakvehiclereid \ # this does not matter any more
