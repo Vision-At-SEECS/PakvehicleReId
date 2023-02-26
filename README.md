@@ -29,7 +29,7 @@ The following libraries/packages are required for successful execution of this p
   3. Opencv
   4. TensorboardX
 
-3. For convience, you may execute `requirements.txt` in cmd prompt.
+Alternatively, you may execute `requirements.txt` in cmd prompt.
 
 ## Dataset
 
