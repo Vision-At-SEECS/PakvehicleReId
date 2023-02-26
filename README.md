@@ -35,6 +35,7 @@ The following files must be downloaded for successful setup.
 **Dataset**
 Please download the PakVehicle-ReID dataset from our google drive [link]().
 After completion, put the training and test folders in `dataset` directory as follow.
+After successful completion of setup, please verify the directory paths and other parameters in config.py
 ```
 ├── Vehiclereid/
 │   ├── datasets/                  
@@ -45,7 +46,7 @@ After completion, put the training and test folders in `dataset` directory as fo
             ├── train_list 
             ├── test_list
 ```
-After successful completion of setup, please verify the directory paths and other parameters in config.py. 
+. 
 Then execute the following cmd given in the dataset folder to load the dataset.
 ```
 pakvehicleid.py
@@ -73,6 +74,7 @@ python train_xent_tri.py \
 --gpu-devices 0 \ # gpu device index
 ```
 ### test
+To test the model, please verify the paths of test directory and also specify the pretrained model in checkpoint in the config.py file. 
 Use --evaluate to switch to the evaluation mode. In doing so, no model training is performed.
 Multiple test size are gievn in the dataset folder which can be evaluated by changing test size command
 given in the script below.
