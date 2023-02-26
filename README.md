@@ -32,10 +32,10 @@ The challenge of re-identifying vehicles in urban city surveillance systems and 
 
 ### Downloads
 The following files must be downloaded for successful setup.
-1. **Dataset**
-    Please download the PakVehicle-ReID dataset from our google drive [link]().
-    After completion, put the training and test folders in `dataset` directory.
-    ```
+**Dataset**
+Please download the PakVehicle-ReID dataset from our google drive [link]().
+After completion, put the training and test folders in `dataset` directory.
+```
 ├── Vehiclereid/
 │   ├── datasets/                  
 │   ├── PakVehicleID/                   
@@ -45,7 +45,6 @@ The following files must be downloaded for successful setup.
             ├── train_list 
             ├── test_list
 ```
-
 
 ## Usage
 ### train
