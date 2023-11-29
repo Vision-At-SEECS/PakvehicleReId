@@ -1,7 +1,7 @@
 ## Pak-Vehicle-ReID: A Multi-perspective Benchmark for Vehicle Re-Identification in Unconstrained Urban Road Environment
 This repository is for the "**PakVehicle-ReID**" dataset which can downloaded from the link given below: 
 
-[Dataset Acquisition Form](https://drive.google.com/file/d/1VDmfPmZCPFyx5KIfQJYucov7mnkb1xAj/view?usp=sharing)
+[Dataset Link](https://drive.google.com/file/d/1VDmfPmZCPFyx5KIfQJYucov7mnkb1xAj/view?usp=sharing)
 
 We will respond to your request at the earliest with the link to the dataset.
 
